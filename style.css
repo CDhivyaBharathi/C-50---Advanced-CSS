@@ -1,0 +1,79 @@
+
+h1{
+    color : violet;
+   margin-left: 80px;
+
+    
+}
+
+.aboutMe{
+    margin-right: 80px;
+}
+
+.name{
+   background-color:royalblue;
+   
+}
+
+.header *{
+    border: solid;
+
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+p,h2{
+    text-align: center;
+    color: red;
+}
+
+body{
+    background-color: #5002b6;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+.g1{
+    position: relative;
+
+}
+
+.g1 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.g1:hover p{
+        opacity: 1;
+}
+.g1:hover img{
+        opacity: 0.33;
+}
+
